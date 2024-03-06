@@ -1,0 +1,25 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: whitesmoke;
+}
+
+a {
+  color: #00B7FF;
+}
+
+#table-cities {
+  margin-top: 20px;
+  border-collapse: collapse;
+  width: 100%;
+
+  tr:nth-child(even) {
+    background-color: #dcdcdc;
+  }
+
+  th {
+    background-color: #635a6b;
+    color: white;
+    font-weight: bold;
+  }
+}
